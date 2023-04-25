@@ -18,7 +18,7 @@ lWordCount:
 lCharCount:
 	.quad 0
 iInWord:
-	.word 1
+	.word 0
 //-------------------------------------------------------------------------
 
 	.section .bss
