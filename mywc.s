@@ -131,7 +131,7 @@ endTheLoop:
 	
 	// if (! iInWord) goto endif3
 	adr x0, iInWord
-	str w3, [x0]
+	ldr w3, [x0]
 	cmp w3, FALSE
 	beq endif3
 
